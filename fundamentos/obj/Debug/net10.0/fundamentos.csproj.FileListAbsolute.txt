@@ -1,0 +1,15 @@
+/home/ubuntu/dev/00245-fundamentos/fundamentos/bin/Debug/net10.0/fundamentos
+/home/ubuntu/dev/00245-fundamentos/fundamentos/bin/Debug/net10.0/fundamentos.deps.json
+/home/ubuntu/dev/00245-fundamentos/fundamentos/bin/Debug/net10.0/fundamentos.runtimeconfig.json
+/home/ubuntu/dev/00245-fundamentos/fundamentos/bin/Debug/net10.0/fundamentos.dll
+/home/ubuntu/dev/00245-fundamentos/fundamentos/bin/Debug/net10.0/fundamentos.pdb
+/home/ubuntu/dev/00245-fundamentos/fundamentos/obj/Debug/net10.0/fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/dev/00245-fundamentos/fundamentos/obj/Debug/net10.0/fundamentos.AssemblyInfoInputs.cache
+/home/ubuntu/dev/00245-fundamentos/fundamentos/obj/Debug/net10.0/fundamentos.AssemblyInfo.cs
+/home/ubuntu/dev/00245-fundamentos/fundamentos/obj/Debug/net10.0/fundamentos.csproj.CoreCompileInputs.cache
+/home/ubuntu/dev/00245-fundamentos/fundamentos/obj/Debug/net10.0/fundamentos.sourcelink.json
+/home/ubuntu/dev/00245-fundamentos/fundamentos/obj/Debug/net10.0/fundamentos.dll
+/home/ubuntu/dev/00245-fundamentos/fundamentos/obj/Debug/net10.0/refint/fundamentos.dll
+/home/ubuntu/dev/00245-fundamentos/fundamentos/obj/Debug/net10.0/fundamentos.pdb
+/home/ubuntu/dev/00245-fundamentos/fundamentos/obj/Debug/net10.0/fundamentos.genruntimeconfig.cache
+/home/ubuntu/dev/00245-fundamentos/fundamentos/obj/Debug/net10.0/ref/fundamentos.dll
