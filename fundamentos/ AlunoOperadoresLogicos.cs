@@ -64,6 +64,29 @@ Console.WriteLine($"Pode conduzir? -> (tem idade e carta){hasAge && hasLicense}"
 
   Console.WriteLine();
 
+  Console.WriteLine("====================================\n");
+
+    Console.WriteLine("EXERCÍCIO 4: Combinaçao de operadores");
+    
+     Console.WriteLine("====================================\n");
+
+     bool entrance = true ;
+
+     bool invitation = false;
+
+     bool VIP = true;
+
+
+      Console.WriteLine($"Has entrance ? {entrance}\n");
+
+   Console.WriteLine($"Has invitation? {invitation}");
+
+  Console.WriteLine();
+
+ Console.WriteLine($"Allowed entrance?{(true || false) && true }");
+
+
+
    }
 
     }
