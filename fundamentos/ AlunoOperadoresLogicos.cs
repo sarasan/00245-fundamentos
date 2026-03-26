@@ -89,7 +89,7 @@ Console.WriteLine($"Pode conduzir? -> (tem idade e carta){hasAge && hasLicense}"
 
    Console.WriteLine("====================================\n");
 
-    Console.WriteLine("EXERCÍCIO 4: Logic table(practice)");
+    Console.WriteLine("EXERCÍCIO 5: Logic table(practice)");
     
      Console.WriteLine("=============AND=======================\n");
 
