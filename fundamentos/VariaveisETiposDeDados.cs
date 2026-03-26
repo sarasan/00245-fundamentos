@@ -2,7 +2,7 @@ using System.Diagnostics;
 
 namespace Fundamentos01;
 
-[DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
+
 public class VariaveisETiposDeDados
 {
     string sobrenome = "sara";
@@ -16,7 +16,7 @@ Console.WriteLine();
 
 int idade =25;
 double altura = 1.75;
-float media = 1950;
+//float media = 1950;
 char letra = 'A';
 string nome = "Tony";
 string nomeComposto = nome + "filho"; //concatenaçao
@@ -32,8 +32,5 @@ Console.WriteLine($"bool->estudante:{estudante} (booleano ou seja verdadeiro ou 
 
 }
 
-    private string GetDebuggerDisplay()
-    {
-        return ToString();
-    }
+   
 }

@@ -43,9 +43,20 @@ public void executarAula()
 
    OperadoresComparacao operadoresComparacao= new OperadoresComparacao();
   
-   operadoresAritmeticos.Executar();
+   operadoresComparacao.Executar();
      
+ Console.WriteLine();
 
+   OperadoresLogicos operadoresLogicos = new OperadoresLogicos();
+  
+   operadoresLogicos.Executar();
+
+   Console.WriteLine();
+
+   ExerciciosVariaveisETiposDeDados exerciciosVariaveisETiposDeDados = new ExerciciosVariaveisETiposDeDados();
+  
+   exerciciosVariaveisETiposDeDados.Executar();
+   
     }
 
 
