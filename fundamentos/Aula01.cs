@@ -51,11 +51,18 @@ public void executarAula()
   
    operadoresLogicos.Executar();
 
-   Console.WriteLine();
+Console.WriteLine();
 
    ExerciciosVariaveisETiposDeDados exerciciosVariaveisETiposDeDados = new ExerciciosVariaveisETiposDeDados();
   
    exerciciosVariaveisETiposDeDados.Executar();
+
+Console.WriteLine();
+
+   AlunoOperadoresLogicos alunoOperadoresLogicos = new AlunoOperadoresLogicos();
+   
+   alunoOperadoresLogicos.Executar();
+
    
     }
 
