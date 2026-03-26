@@ -79,13 +79,38 @@ Console.WriteLine($"Pode conduzir? -> (tem idade e carta){hasAge && hasLicense}"
 
       Console.WriteLine($"Has entrance ? {entrance}\n");
 
-   Console.WriteLine($"Has invitation? {invitation}");
+   Console.WriteLine($"Has invitation? {invitation}\n");
+
+    Console.WriteLine($"Is VIP ? {VIP}");
 
   Console.WriteLine();
 
  Console.WriteLine($"Allowed entrance?{(true || false) && true }");
 
+   Console.WriteLine("====================================\n");
 
+    Console.WriteLine("EXERCÍCIO 4: Logic table(practice)");
+    
+     Console.WriteLine("=============AND=======================\n");
+
+
+    Console.WriteLine($"true && true: {true && true}");
+
+    Console.WriteLine($"true && false: {true && false}");
+   
+   Console.WriteLine($"false && true: {false && true}");
+   
+   Console.WriteLine($"false && false: {false && false }\n");
+   
+     Console.WriteLine("=============OR=======================\n");
+
+ Console.WriteLine($"true || true: {true || true}");
+
+    Console.WriteLine($"true || false: {true || false}");
+   
+   Console.WriteLine($"false || true: {false || true}");
+   
+   Console.WriteLine($"false || false: {false || false }\n");
 
    }
 
