@@ -39,6 +39,31 @@ Console.WriteLine($"Pode conduzir? -> (tem idade e carta){hasAge && hasLicense}"
     bool admin = true;
 
     bool loggedIn = false;
-   } 
+
+
+    Console.WriteLine($"Logged in? {loggedIn}\n");
+
+   Console.WriteLine($"Is admin? {admin}");
+
+  Console.WriteLine();
+
+ Console.WriteLine($"Allowed access?{admin ||loggedIn}");
+
+
+   Console.WriteLine("====================================\n");
+
+    Console.WriteLine("EXERCÍCIO 3: Operador NOT\n");
+    
+     Console.WriteLine("====================================\n");
+
+     bool originalvalue = true;
+
+     Console.WriteLine($"original value: {originalvalue}\n");
+
+   Console.WriteLine($"reverted value : {!originalvalue}");
+
+  Console.WriteLine();
+
+   }
 
     }
