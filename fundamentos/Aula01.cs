@@ -63,6 +63,12 @@ Console.WriteLine();
    
    alunoOperadoresLogicos.Executar();
 
+   Console.WriteLine();
+
+   AlunoOperadoresAritmeticos alunoOperadoresAritmeticos = new AlunoOperadoresAritmeticos();
+   
+   alunoOperadoresAritmeticos.Executar();
+
    
     }
 
