@@ -81,6 +81,14 @@ Console.WriteLine();
 
    Console.WriteLine();
 
+   ////////////////////////////////////////////////////////////////////////////
+
+   AlunosCondicionais  alunosCondicionais = new AlunosCondicionais();
+
+   alunosCondicionais.Executar();
+
+   Console.WriteLine();
+
 
    
     }
