@@ -77,6 +77,8 @@ Console.WriteLine();
 
    estruturasControloBasicas .ExecutarSwitchCase();
 
+   estruturasControloBasicas .ExecutarTernario ();
+
    Console.WriteLine();
 
 

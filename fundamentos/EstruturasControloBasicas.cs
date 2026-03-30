@@ -27,7 +27,7 @@ public class EstruturasControloBasicas
     }
 
 
-    //Estruitura switch case
+    //Estrutura switch case
     //compara um avaraiavel com multiplos valores
 
     public void ExecutarSwitchCase()
@@ -80,13 +80,20 @@ public class EstruturasControloBasicas
              Console.WriteLine("Dia: Domingo") ;
 
              break;
-
-
-
              
-
-             
-        }
+             }
         
     }
-}
+
+//ternario e 1 forma compacta der IF E ELSE(? VERDADEIRO : FALSO)
+public void ExecutarTernario()
+    {
+    int idade = 18;
+
+    string status = (idade >= 18) ? "Maior 18": "Menor 18";
+
+    Console.WriteLine($"idade : {idade} -> {status}");
+
+    }
+
+    }
