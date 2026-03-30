@@ -29,7 +29,7 @@ public void executarAula()
         
     this.ExibirCabecalho();  
 
-    VariaveisETiposDeDados variaveisETiposDeDados = new VariaveisETiposDeDados();
+   /*VariaveisETiposDeDados variaveisETiposDeDados = new VariaveisETiposDeDados();
 
    variaveisETiposDeDados.Executar();
 
@@ -68,6 +68,17 @@ Console.WriteLine();
    AlunoOperadoresAritmeticos alunoOperadoresAritmeticos = new AlunoOperadoresAritmeticos();
    
    alunoOperadoresAritmeticos.Executar();
+
+   Console.WriteLine();*/
+
+   EstruturasControloBasicas  estruturasControloBasicas  = new EstruturasControloBasicas();
+   
+   estruturasControloBasicas .ExecutarIfElse ();
+
+   estruturasControloBasicas .ExecutarSwitchCase();
+
+   Console.WriteLine();
+
 
    
     }
