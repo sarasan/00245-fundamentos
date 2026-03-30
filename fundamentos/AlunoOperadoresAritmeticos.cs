@@ -62,9 +62,9 @@ public void Executar()
 
     double numb2 = Convert.ToDouble(Console.ReadLine());
 
-//int resto = ConvertToDouble(numb1 % numb2);
+    int resto = (int)(numb1 % numb2);
 
-    Console.WriteLine($"O resto da divisao e: {numb1} % {numb2 } = {numb1 % numb2}\n");
+    Console.WriteLine($"O resto da divisao e: {numb1} % {numb2 } = {resto }\n");
 
    
 
