@@ -46,17 +46,17 @@ public void ExecutarExercicioRevisao()
 
     if (n1 > n2)
         {
-            Console.WriteLine($"Numero 1 e maior: {n1}");
+            Console.WriteLine($" {n1} maior que {n2}\n");
 
         }
         else if (n2 > n1)
     
         {
-           Console.WriteLine($"Numero 2 e maior: {n2}"); 
+           Console.WriteLine($" {n2} maior que {n1}\n"); 
         }
         else
         {
-           Console.WriteLine($"Numero 1 e 2 sao iguais: \n {n2}\n {n2}");  
+           Console.WriteLine($"  {n1} e {n2} sao iguais\n");  
         }
 
     Console.WriteLine("=================================================\n");
@@ -64,6 +64,8 @@ public void ExecutarExercicioRevisao()
     Console.WriteLine ("EXERCÍCIO 3: Sistema de desconto (operador ternário)");
 
     Console.WriteLine("===================================================\n");
+
+
 
     }
 
