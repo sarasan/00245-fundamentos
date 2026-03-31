@@ -59,14 +59,41 @@ public void ExecutarExercicioRevisao()
            Console.WriteLine($"  {n1} e {n2} sao iguais\n");  
         }
 
-    Console.WriteLine("=================================================\n");
+Console.WriteLine("=================================================\n");
 
-    Console.WriteLine ("EXERCÍCIO 3: Sistema de desconto (operador ternário)");
+Console.WriteLine ("EXERCÍCIO 3: Sistema de desconto (operador ternário)");
 
-    Console.WriteLine("===================================================\n");
+Console.WriteLine("===================================================\n");
 
+Console.WriteLine("Por favor introduza o valor da compra : \n");
 
+double originalValue = Convert.ToDouble(Console.ReadLine());
+
+double discount = (originalValue * 10 /100);
+  
+
+string desconto = (originalValue > 100) ? ($"Desconto:{discount}"): "Sem desconto";
+
+Console.WriteLine($"{desconto}\n");
+
+    
+Console.WriteLine("=================================================\n");
+
+Console.WriteLine ("EXERCÍCIO 4: Classificaçao de idade");
+
+Console.WriteLine("===================================================\n");
+
+Console.WriteLine("Por favor introduza a idade: \n");
+
+int idade = Convert.ToInt32(Console.ReadLine());
+
+if(idade < 12)
+        {
+            Console.WriteLine("Criança");
+        }
+
+        }
+    
 
     }
 
-}
