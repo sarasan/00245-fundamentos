@@ -114,11 +114,11 @@ public void Executar()
 
     string PWD = "1234";
 
-    Console.WriteLine("POr favor insira username ");
+    Console.WriteLine("POr favor insira username\n ");
 
     string username = Console.ReadLine();
 
-    Console.WriteLine("POr favor insira A password");
+    Console.WriteLine("POr favor insira A password\n");
 
     String  pwdss  = Console.ReadLine();  
 
@@ -126,6 +126,12 @@ public void Executar()
 
     if(USER == username && PWD == pwdss )
         {
+          Console.WriteLine ($"Username: {username }\n");
+
+          Console.WriteLine("Password:");
+
+          Console.WriteLine(new string('*', pwdss.Length));
+
           Console.WriteLine("Acesso permitido");  
         }
         else

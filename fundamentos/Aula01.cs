@@ -57,21 +57,21 @@ Console.WriteLine();
   
    exerciciosVariaveisETiposDeDados.Executar();
 
-Console.WriteLine();
+Console.WriteLine();*/
 
-   AlunoOperadoresLogicos alunoOperadoresLogicos = new AlunoOperadoresLogicos();
+  /* AlunoOperadoresLogicos alunoOperadoresLogicos = new AlunoOperadoresLogicos();
    
    alunoOperadoresLogicos.Executar();
 
-   Console.WriteLine();
+   Console.WriteLine();*/
 
    AlunoOperadoresAritmeticos alunoOperadoresAritmeticos = new AlunoOperadoresAritmeticos();
    
    alunoOperadoresAritmeticos.Executar();
 
-   Console.WriteLine();*/
+   Console.WriteLine();
 
-   EstruturasControloBasicas  estruturasControloBasicas  = new EstruturasControloBasicas();
+   /*EstruturasControloBasicas  estruturasControloBasicas  = new EstruturasControloBasicas();
    
    estruturasControloBasicas .ExecutarIfElse ();
 
@@ -79,7 +79,7 @@ Console.WriteLine();
 
    estruturasControloBasicas .ExecutarTernario ();
 
-   Console.WriteLine();
+   Console.WriteLine();*/
 
    ////////////////////////////////////////////////////////////////////////////
 

@@ -90,10 +90,24 @@ public void Executar()
     double divide =(double)(n1/n2);
 
     int product = (int)(n1* n2);
+//////////////////////exercicio5 incremento
+/// 
+    n1++;
+    
+    n2++;
+
+    Console.WriteLine($"Numero 1 incrementado {n1}\n");
+
+     Console.WriteLine($"Numero 2 incrementado {n2}\n");
 
     Console.WriteLine($"Divisao: {n1} / {n2} = {divide }\n");
 
     Console.WriteLine($"Multiplicaçao: {n1} x {n2} = {product }\n");
+
+
+
+
+
     }
 
 
