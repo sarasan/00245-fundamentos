@@ -65,11 +65,11 @@ Console.WriteLine();*/
 
    Console.WriteLine();*/
 
-   AlunoOperadoresAritmeticos alunoOperadoresAritmeticos = new AlunoOperadoresAritmeticos();
+   /*AlunoOperadoresAritmeticos alunoOperadoresAritmeticos = new AlunoOperadoresAritmeticos();
    
    alunoOperadoresAritmeticos.Executar();
 
-   Console.WriteLine();
+   Console.WriteLine();*/
 
    /*EstruturasControloBasicas  estruturasControloBasicas  = new EstruturasControloBasicas();
    
@@ -83,12 +83,17 @@ Console.WriteLine();*/
 
    ////////////////////////////////////////////////////////////////////////////
 
-   AlunosCondicionais  alunosCondicionais = new AlunosCondicionais();
+   /*AlunosCondicionais  alunosCondicionais = new AlunosCondicionais();
 
    alunosCondicionais.Executar();
 
-   Console.WriteLine();
+   Console.WriteLine();*/
 
+AlunoExercicioRevisao  alunoExercicioRevisao = new AlunoExercicioRevisao();
+
+alunoExercicioRevisao.ExecutarExercicioRevisao();
+
+Console.WriteLine();
 
    
     }
