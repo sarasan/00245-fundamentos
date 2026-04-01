@@ -91,7 +91,18 @@ if(idade < 12)
         {
             Console.WriteLine("Criança");
         }
+        else if (idade >=12 && idade < 18)
+        {
+            Console.WriteLine("Adolescente");
+        }
+        else
+        {
+            Console.WriteLine("Adulto");
+        }
+        {
+            
 
+        }
         }
     
 
