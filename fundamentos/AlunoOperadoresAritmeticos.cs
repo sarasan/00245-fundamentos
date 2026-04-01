@@ -57,11 +57,11 @@ public void Executar()
     
     Console.WriteLine("=========================================\n");
 
-    Console.WriteLine("Por favor insira o num1 \n");
+    Console.WriteLine("Insira o num1 \n");
 
     double numb1= Convert.ToDouble(Console.ReadLine());
 
-    Console.WriteLine("Por favor insira o num2 \n");
+    Console.WriteLine("Insira o num2 \n");
 
     double numb2 = Convert.ToDouble(Console.ReadLine());
 
@@ -79,17 +79,18 @@ public void Executar()
 
     double n1, n2;
 
-    Console .WriteLine("Por favor insira o primeiro numero\n");
+    Console .WriteLine("Insira o primeiro numero\n");
 
     n1 = Convert.ToDouble(Console.ReadLine());
 
-    Console.WriteLine("Por favor insira o segundo numero\n");
+    Console.WriteLine("Insira o segundo numero\n");
 
     n2 = Convert.ToDouble(Console.ReadLine());
 
     double divide =(double)(n1/n2);
 
     int product = (int)(n1* n2);
+
 //////////////////////exercicio5 incremento
 /// 
     n1++;
@@ -98,19 +99,13 @@ public void Executar()
 
     Console.WriteLine($"Numero 1 incrementado {n1}\n");
 
-     Console.WriteLine($"Numero 2 incrementado {n2}\n");
+    Console.WriteLine($"Numero 2 incrementado {n2}\n");
 
     Console.WriteLine($"Divisao: {n1} / {n2} = {divide }\n");
 
     Console.WriteLine($"Multiplicaçao: {n1} x {n2} = {product }\n");
 
 
-
-
-
     }
-
-
-
 
 }

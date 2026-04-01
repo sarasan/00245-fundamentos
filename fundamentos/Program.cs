@@ -2,7 +2,7 @@
 
   public  class Program{
         
-static void Main(string[] args){
+ static void Main(string[] args){
 
     Console.WriteLine("Inicio aula01\n");
     
@@ -10,10 +10,7 @@ static void Main(string[] args){
 
     aula01.executarAula();
 
-   //VariaveisETiposDeDados variaveisETiposDeDados = new VariaveisETiposDeDados();
-
-   //variaveisETiposDeDados.Executar();
-
+  
     }
 
 

@@ -65,7 +65,7 @@ Console.WriteLine ("EXERCÍCIO 3: Sistema de desconto (operador ternário)");
 
 Console.WriteLine("===================================================\n");
 
-Console.WriteLine("Por favor introduza o valor da compra : \n");
+Console.WriteLine("Introduza o valor da compra : \n");
 
 double originalValue = Convert.ToDouble(Console.ReadLine());
 
@@ -83,7 +83,7 @@ Console.WriteLine ("EXERCÍCIO 4: Classificaçao de idade");
 
 Console.WriteLine("===================================================\n");
 
-Console.WriteLine("Por favor introduza a idade: \n");
+Console.WriteLine("Introduza a idade: \n");
 
 int idade = Convert.ToInt32(Console.ReadLine());
 
@@ -99,10 +99,75 @@ if(idade < 12)
         {
             Console.WriteLine("Adulto");
         }
+        
+        
+Console.WriteLine("=================================================\n");
+
+Console.WriteLine ("EXERCÍCIO 5: Menu com  Switch");
+
+Console.WriteLine("===================================================\n");
+
+Console.WriteLine("Escolha uma opçao:\n1: Novo jogo\n 2: Carregar jogo \n 3: Sair\n");
+
+int opcao = Convert.ToInt32(Console.ReadLine());
+
+        switch (opcao)
         {
-            
+         case 1:  Console.WriteLine ("Novo jogo") ; 
+
+         break;
+
+        case 2:  Console.WriteLine ("Carregar jogo") ; 
+
+         break;
+        
+        //case 3:  Console.WriteLine ("Sair") ; 
+
+        //break;
+
+        default:
+
+        Console.WriteLine ("Sair") ; 
+
+        break;
 
         }
+
+    Console.WriteLine("=================================================\n");
+
+    Console.WriteLine ("EXERCÍCIO 6: Validaçao e acesso");
+
+    Console.WriteLine("===================================================\n");
+
+    int age;
+
+    bool access;
+
+    string invite;
+
+    Console.WriteLine ("Idique a idade");
+
+    age =Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine ("Tem convite?(Sim ou Nao)");
+
+    invite = Convert.ToString(Console.ReadLine());
+
+    if(age >=18 && invite == "Sim")
+        {
+          access= true; 
+
+          Console.WriteLine($"Pode entrar?{access}") ;
+        }
+        else
+        {
+            access= false; 
+
+          Console.WriteLine($"Pode entrar?{access}") ; 
+        }
+
+
+
         }
     
 

@@ -86,7 +86,7 @@ public class EstruturasControloBasicas
         
     }
 
-//ternario e 1 forma compacta der IF E ELSE(? VERDADEIRO : FALSO)
+//ternario e 1 forma compacta de IF E ELSE(? VERDADEIRO : FALSO)
 public void ExecutarTernario()
     {
     int idade = 18;

@@ -15,7 +15,7 @@ public void Executar()
 
          Console.WriteLine("======================================");
 
-        Console.WriteLine("Por favor insira um numero:\n");
+        Console.WriteLine("Insira um numero:\n");
 
         double num = Convert.ToInt32(Console.ReadLine());
 
@@ -36,9 +36,9 @@ public void Executar()
 
         Console.WriteLine("Exercicio2. Par ou Impar\n");
 
-         Console.WriteLine("======================================");
+        Console.WriteLine("======================================");
 
-         Console.WriteLine("Por favor insira um numero:\n");
+        Console.WriteLine("Insira um numero:\n");
 
         double n1 = Convert.ToInt32(Console.ReadLine());
 
@@ -53,7 +53,7 @@ public void Executar()
 
     Console.WriteLine("======================================");
 
-    Console.WriteLine("Por favor insira um numero de 1 a 7:\n");
+    Console.WriteLine("Insira um numero de 1 a 7:\n");
 
     int dia = Convert.ToInt32(Console.ReadLine());
 
@@ -114,11 +114,11 @@ public void Executar()
 
     string PWD = "1234";
 
-    Console.WriteLine("POr favor insira username\n ");
+    Console.WriteLine("Insira username\n ");
 
     string username = Console.ReadLine();
 
-    Console.WriteLine("POr favor insira A password\n");
+    Console.WriteLine("Insira password\n");
 
     String  pwdss  = Console.ReadLine();  
 
@@ -138,15 +138,6 @@ public void Executar()
         {
            Console.WriteLine("Acesso negado");   
         }
-
-/*Console.WriteLine("Enter username:");
-
-// Create a string variable and get user input from the keyboard and store it in the variable
-string userName = Console.ReadLine();
-
-// Print the value of the variable (userName), which will display the input value
-Console.WriteLine("Username is: " + userName);*/
-    
 
     }
     }
